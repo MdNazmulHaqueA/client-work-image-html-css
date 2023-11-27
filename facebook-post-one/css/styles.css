@@ -1,0 +1,75 @@
+/* reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', sans-serif;
+  overflow: hidden;
+}
+
+/* common styles */
+button,
+h1,
+h4 {
+  color: #fff;
+  text-transform: uppercase;
+}
+hr {
+  border: 4px solid #fff;
+  margin: 0 auto 42px auto;
+  width: 90%;
+}
+
+/* main styles */
+
+/* Please place the background image named as background-image in the images folder. Please change the ".jpg" to ".png", if the image format is png */
+.post-container {
+  background-image: url('../images/background-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1080px;
+  width: 1080px;
+  margin: 0 auto;
+}
+.post {
+  margin: 0 82px 10px 82px;
+}
+
+.logo {
+  height: 120px;
+  width: 240px;
+  background-color: #fff;
+  border-top: 16px solid #60636c;
+  margin-bottom: 480px;
+  padding: 45px;
+}
+.logo img {
+  width: 100%;
+}
+
+.sub-heading-text {
+  font-size: 60px;
+  letter-spacing: 2.75px;
+  line-height: 58px;
+}
+
+.heading-text {
+  font-size: 96px;
+  letter-spacing: 5px;
+  line-height: 108px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.call-to-action-button {
+  background-color: #60636c;
+  border: none;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 10px;
+  padding: 20px 16px 20px 30px;
+}
+.call-to-action-button i {
+  font-size: 22px;
+  margin-left: 20px;
+}

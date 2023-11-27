@@ -1,0 +1,83 @@
+/* reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/* main styles */
+.post-container {
+  height: 1080px;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.bar-top {
+  border-top: 20px solid #172351;
+}
+
+.post {
+  height: 1040px;
+  margin: 0 80px;
+}
+
+.logo {
+  margin: 45px auto;
+  width: 220px;
+}
+.logo img {
+  height: 45px;
+  width: 100%;
+}
+
+.sub-heading-text {
+  color: #60636c;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.heading-text {
+  color: #172351;
+  font-size: 64px;
+  line-height: 70px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.call-to-action-button {
+  background-color: #172351;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 20px 25px 20px 30px;
+  position: relative;
+  z-index: 100;
+}
+.call-to-action-button i {
+  font-size: 22px;
+  margin-left: 25px;
+}
+
+.main-image {
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: visible;
+}
+.main-image img {
+  height: 685px;
+  width: 100%;
+  border-top-left-radius: 240px;
+  border-top-right-radius: 240px;
+  margin-top: -25px;
+  outline: 2px solid #172351;
+  outline-offset: 12px;
+}
+
+.bar-bottom {
+  border-bottom: 20px solid #172351;
+}
